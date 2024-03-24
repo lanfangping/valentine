@@ -12,6 +12,9 @@ def main():
     d1_path = os.path.join('data', 'authors1.csv')
     d2_path = os.path.join('data', 'authors2.csv')
     df1 = pd.read_csv(d1_path)
+
+    print(df1.columns)
+    print(df1.head())
     df2 = pd.read_csv(d2_path)
 
     # Instantiate matcher and run

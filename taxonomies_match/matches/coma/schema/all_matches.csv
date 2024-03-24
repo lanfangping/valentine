@@ -1,0 +1,304 @@
+,table1,col1,table2,col2,sim_score
+0,Zhang2015-06,Warrant/Reasoning/Backing,Zhang2016-11,Warrant/Reasoning/Backing,0.9250307
+1,Zhang2015-06,General Content,Zhang2016-11,General Content,0.91785717
+2,Zhang2015-06,Organization,Zhang2016-11,Organization,0.91598094
+3,Zhang2015-06,Claim/Ideas,Zhang2016-11,Claim/Ideas,0.91496885
+4,Zhang2015-06,Evidence,Zhang2016-11,Evidence,0.91158533
+5,Yang2016-08,Reference-Modification,Daxenberger2012-09,Reference-Modification,0.88855356
+6,Yang2016-08,Reference-Modification,Daxenberger2013-17,Reference-Modification,0.88855356
+7,Yang2016-08,Information-Modification,Daxenberger2012-09,Information-Modification,0.88706356
+8,Yang2016-08,Template-Modification,Daxenberger2012-09,Template-Modification,0.88706356
+9,Yang2016-08,Information-Modification,Daxenberger2013-17,Information-Modification,0.88706356
+10,Yang2016-08,Template-Modification,Daxenberger2013-17,Template-Modification,0.88706356
+11,Yang2016-08,Markup-Modification,Daxenberger2012-09,Markup-Modification,0.88389933
+12,Yang2016-08,Information-Insertion,Daxenberger2012-09,Information-Insertion,0.88389933
+13,Yang2016-08,Reference-Insertion,Daxenberger2012-09,Reference-Insertion,0.88389933
+14,Yang2016-08,Markup-Modification,Daxenberger2013-17,Markup-Modification,0.88389933
+15,Yang2016-08,Information-Insertion,Daxenberger2013-17,Information-Insertion,0.88389933
+16,Yang2016-08,Reference-Insertion,Daxenberger2013-17,Reference-Insertion,0.88389933
+17,Yang2016-08,Information-Deletion,Daxenberger2012-09,Information-Deletion,0.8822173
+18,Yang2016-08,Reference-Deletion,Daxenberger2012-09,Reference-Deletion,0.8822173
+19,Yang2016-08,Template-Insertion,Daxenberger2012-09,Template-Insertion,0.8822173
+20,Yang2016-08,Information-Deletion,Daxenberger2013-17,Information-Deletion,0.8822173
+21,Yang2016-08,Reference-Deletion,Daxenberger2013-17,Reference-Deletion,0.8822173
+22,Yang2016-08,Template-Insertion,Daxenberger2013-17,Template-Insertion,0.8822173
+23,Yang2016-08,File-Modification,Daxenberger2012-09,File-Modification,0.88046294
+24,Yang2016-08,Template-Deletion,Daxenberger2012-09,Template-Deletion,0.88046294
+25,Yang2016-08,File-Modification,Daxenberger2013-17,File-Modification,0.88046294
+26,Yang2016-08,Template-Deletion,Daxenberger2013-17,Template-Deletion,0.88046294
+27,Yang2016-08,Markup-Inserion,Daxenberger2012-09,Markup-Inserion,0.8767176
+28,Yang2016-08,Markup-Deletion,Daxenberger2012-09,Markup-Deletion,0.8767176
+29,Yang2016-08,Markup-Inserion,Daxenberger2013-17,Markup-Inserion,0.8767176
+30,Yang2016-08,Markup-Deletion,Daxenberger2013-17,Markup-Deletion,0.8767176
+31,Yang2016-08,File-Insertion,Daxenberger2012-09,File-Insertion,0.8747158
+32,Yang2016-08,File-Insertion,Daxenberger2013-17,File-Insertion,0.8747158
+33,Yang2016-08,File-Deletion,Daxenberger2012-09,File-Deletion,0.8726198
+34,Yang2016-08,File-Deletion,Daxenberger2013-17,File-Deletion,0.8726198
+35,Yang2016-08,Relocation,Daxenberger2012-09,Relocation,0.865695
+36,Yang2016-08,Relocation,Daxenberger2013-17,Relocation,0.865695
+37,Anthonio2020-03,Spelling/Grammar,Daxenberger2012-09,Spelling/Grammar,0.78927183
+38,Anthonio2020-03,Spelling/Grammar,Daxenberger2013-17,Spelling/Grammar,0.78927183
+39,Anthonio2020-03,Paraphrase,Daxenberger2012-09,Paraphrase,0.77519447
+40,Anthonio2020-03,Paraphrase,Daxenberger2013-17,Paraphrase,0.77519447
+41,Yang2017-01,Elaboration,Guo2022-16,Elaboration,0.758035
+42,Yang2017-01,Disambiguation,Jones2008-13,Disambiguation,0.7568756
+43,Yang2016-08,Reference-Modification,Liu2014-14,Reference modification,0.7541348
+44,Falting2021-04,Disambiguation,Jones2008-13,Disambiguation,0.75112814
+45,Falting2021-04,Elaboration,Guo2022-16,Elaboration,0.75043017
+46,Anthonio2020-03,Paraphrase,Guo2022-16,Paraphrase,0.74775755
+47,Yang2017-01,Vandalism,Jones2008-13,Vandalism,0.74513847
+48,Yang2017-01,Vandalism,Daxenberger2012-09,Vandalism,0.7415682
+49,Yang2017-01,Vandalism,Daxenberger2013-17,Vandalism,0.7415682
+50,Yang2016-08,Reference-Insertion,Liu2014-14,Reference insertion,0.7400613
+51,Falting2021-04,Vandalism,Jones2008-13,Vandalism,0.7390625
+52,Yang2016-08,Grammar,Pfeil2006-12,Grammar,0.7390403
+53,Yang2016-08,Reference-Deletion,Liu2014-14,Reference deletion,0.73461723
+54,Yang2017-01,Vandalism,Pfeil2006-12,Vandalism,0.73177844
+55,Du2022-07,Clarity,Zhang2016-11,Clarity,0.73147255
+56,Falting2021-04,Vandalism,Daxenberger2012-09,Vandalism,0.72377264
+57,Falting2021-04,Vandalism,Daxenberger2013-17,Vandalism,0.72377264
+58,Falting2021-04,Vandalism,Pfeil2006-12,Vandalism,0.72198856
+59,Anthonio2020-03,Information Deletion,Daxenberger2012-09,Information-Deletion,0.70305437
+60,Anthonio2020-03,Information Deletion,Daxenberger2013-17,Information-Deletion,0.70305437
+61,Rajagopal2022-02,Add New Information,Pfeil2006-12,Add Information,0.6499872
+62,Anthonio2020-03,Information Modification/Insertion,Daxenberger2012-09,Information-Modification,0.64417875
+63,Anthonio2020-03,Information Modification/Insertion,Daxenberger2013-17,Information-Modification,0.64417875
+64,Yang2016-08,Wikilink-Modification,Liu2014-14,Link modification,0.62796926
+65,Zhang2015-06,Conventions/Grammar/Spelling,Zhang2016-11,Conventions,0.6215468
+66,Zhang2015-06,Word-usage/Clarity,Zhang2016-11,Clarity,0.6167079
+67,Yang2016-08,Rephrase,Daxenberger2012-09,Paraphrase,0.6099002
+68,Yang2016-08,Rephrase,Daxenberger2013-17,Paraphrase,0.6099002
+69,Yang2016-08,Grammar,Daxenberger2012-09,Spelling/Grammar,0.5950067
+70,Yang2016-08,Grammar,Daxenberger2013-17,Spelling/Grammar,0.5950067
+71,Yang2016-08,Wikilink-Insertion,Liu2014-14,Link insertion,0.5930844
+72,Yang2016-08,Information-Deletion,Pfeil2006-12,Delete Information,0.59147197
+73,Anthonio2020-03,Information Deletion,Pfeil2006-12,Delete Information,0.58565766
+74,Yang2016-08,Wikilink-Deletion,Liu2014-14,Link deletion,0.5790435
+75,Spangher2022-05,Deletion,Liu2014-14,Link deletion,0.54449666
+76,Spangher2022-05,Deletion,Daxenberger2012-09,File-Deletion,0.53605044
+77,Spangher2022-05,Deletion,Daxenberger2013-17,File-Deletion,0.5300981
+78,Yang2017-01,Clarification,Pfeil2006-12,Clarify Information,0.5118162
+79,Falting2021-04,Clarification,Pfeil2006-12,Clarify Information,0.5038955
+80,Yang2017-01,Verification,Daxenberger2012-09,File-Modification,0.48994482
+81,Yang2017-01,Wikification,Daxenberger2012-09,File-Modification,0.48994482
+82,Yang2017-01,Verification,Daxenberger2013-17,File-Modification,0.48994482
+83,Yang2017-01,Wikification,Daxenberger2013-17,File-Modification,0.48994482
+84,Anthonio2020-03,Spelling/Grammar,Pfeil2006-12,Spelling,0.4881183
+85,Spangher2022-05,Deletion,Pfeil2006-12,Delete Information,0.48416823
+86,Yang2016-08,Rephrase,Guo2022-16,Paraphrase,0.48183027
+87,Yang2017-01,Verification,Liu2014-14,Link modification,0.47949445
+88,Yang2017-01,Wikification,Liu2014-14,Link modification,0.47949445
+89,Anthonio2020-03,Information Modification/Insertion,Liu2014-14,Link modification,0.47724015
+90,Falting2021-04,Wikification,Daxenberger2012-09,File-Modification,0.47438455
+91,Falting2021-04,Wikification,Daxenberger2013-17,File-Modification,0.47438455
+92,Anthonio2020-03,Information Deletion,Liu2014-14,Link deletion,0.4727137
+93,Yang2017-01,Simplification,Daxenberger2012-09,Template-Modification,0.47096825
+94,Yang2017-01,Simplification,Daxenberger2013-17,Template-Modification,0.47096825
+95,Falting2021-04,Wikification,Liu2014-14,Link modification,0.46163958
+96,Yang2017-01,Fact Update,Guo2022-16,Dynamic Update,0.4600308
+97,Anthonio2020-03,Spelling/Grammar,Failgey1981-10,Spelling,0.4574033
+98,Falting2021-04,Simplification,Daxenberger2012-09,Template-Modification,0.45608497
+99,Falting2021-04,Simplification,Daxenberger2013-17,Template-Modification,0.45608497
+100,Falting2021-04,Fact Update,Guo2022-16,Dynamic Update,0.45391807
+101,Rajagopal2022-02,Add New Information,Daxenberger2012-09,Information-Deletion,0.45261636
+102,Yang2017-01,Clarification,Guo2022-16,Citation,0.45170704
+103,Rajagopal2022-02,Add New Information,Daxenberger2013-17,Information-Deletion,0.44766584
+104,Falting2021-04,Clarification,Guo2022-16,Citation,0.44595647
+105,Falting2021-04,Simplification,Liu2014-14,Sentence modification,0.44241208
+106,Yang2017-01,Simplification,Jones2008-13,Significant Deletion,0.4419935
+107,Yang2017-01,Simplification,Jones2008-13,Significant Addition,0.4419935
+108,Spangher2022-05,Addition,Jones2008-13,Significant Addition,0.44115207
+109,Spangher2022-05,Deletion,Jones2008-13,Significant Deletion,0.44115207
+110,Falting2021-04,Simplification,Jones2008-13,Significant Deletion,0.4383671
+111,Falting2021-04,Simplification,Jones2008-13,Significant Addition,0.4383671
+112,Rajagopal2022-02,Fact Update,Guo2022-16,Dynamic Update,0.43765023
+113,Spangher2022-05,Addition,Pfeil2006-12,Add Information,0.43544552
+114,Zhang2015-06,Conventions/Grammar/Spelling,Daxenberger2012-09,Spelling/Grammar,0.43198758
+115,Zhang2015-06,Conventions/Grammar/Spelling,Daxenberger2013-17,Spelling/Grammar,0.43198758
+116,Yang2016-08,Relocation,Guo2022-16,Citation,0.42912936
+117,Zhang2015-06,Organization,Guo2022-16,Neutralization,0.42267725
+118,Yang2016-08,Relocation,Pfeil2006-12,Reversion,0.418289
+119,Yang2017-01,Vandalism,Guo2022-16,Emotionalism,0.411707
+120,Yang2017-01,Clarification,Zhang2016-11,Clarity,0.40659976
+121,Yang2016-08,Markup-Deletion,Failgey1981-10,Meaning-Preserving-Deletion,0.4061988
+122,Falting2021-04,Vandalism,Guo2022-16,Emotionalism,0.40595648
+123,Yang2016-08,Markup-Deletion,Failgey1981-10,Macrostructure Changes-Deletion,0.40226117
+124,Rajagopal2022-02,Add Supporting Evidence,Zhang2016-11,Evidence,0.4018026
+125,Yang2016-08,File-Deletion,Jones2008-13,Significant Deletion,0.4005582
+126,Yang2016-08,Relocation,Zhang2016-11,Organization,0.3996181
+127,Du2022-07,Coherence,Zhang2016-11,Evidence,0.39527348
+128,Spangher2022-05,Addition,Guo2022-16,Citation,0.39296246
+129,Spangher2022-05,Deletion,Guo2022-16,Citation,0.39296246
+130,Spangher2022-05,Addition,Failgey1981-10,Meaning-Preserving-Addition,0.38669768
+131,Spangher2022-05,Deletion,Failgey1981-10,Meaning-Preserving-Deletion,0.38669768
+132,Falting2021-04,Verifiability,Jones2008-13,Style or readability,0.38634464
+133,Falting2021-04,Disambiguation,Failgey1981-10,Punctuation,0.38113213
+134,Yang2016-08,Relocation,Failgey1981-10,Punctuation,0.38024187
+135,Spangher2022-05,Addition,Daxenberger2012-09,Relocation,0.37824783
+136,Yang2017-01,Elaboration,Zhang2016-11,Organization,0.37777388
+137,Falting2021-04,Clarification,Zhang2016-11,Clarity,0.37731776
+138,Yang2017-01,Disambiguation,Failgey1981-10,Punctuation,0.37574345
+139,Yang2016-08,Reference-Deletion,Guo2022-16,Forward Reference,0.37443447
+140,Du2022-07,Coherence,Guo2022-16,Forward Reference,0.37379354
+141,Zhang2015-06,Rebuttal/Reservation,Daxenberger2012-09,Relocation,0.3732332
+142,Zhang2015-06,Rebuttal/Reservation,Daxenberger2013-17,Relocation,0.3732332
+143,Anthonio2020-03,Information Deletion,Jones2008-13,Significant Deletion,0.37279332
+144,Spangher2022-05,Addition,Daxenberger2013-17,Relocation,0.372075
+145,Zhang2015-06,Conventions/Grammar/Spelling,Failgey1981-10,Spelling,0.36607593
+146,Anthonio2020-03,Information Deletion,Guo2022-16,Citation,0.36504146
+147,Yang2016-08,Rephrase,Liu2014-14,Revert,0.36343664
+148,Zhang2015-06,Conventions/Grammar/Spelling,Pfeil2006-12,Spelling,0.358104
+149,Yang2016-08,Relocation,Jones2008-13,Disambiguation,0.35702395
+150,Yang2016-08,External Link-Deletion,Pfeil2006-12,Delete Link,0.35659993
+151,Falting2021-04,Elaboration,Zhang2016-11,Organization,0.3560017
+152,Yang2017-01,Elaboration,Pfeil2006-12,Add Information,0.3511105
+153,Du2022-07,Fluency,Rathjens1985-15,Consistency,0.35038307
+154,Zhang2015-06,Organization,Failgey1981-10,Punctuation,0.35016042
+155,Du2022-07,Style,Pfeil2006-12,Style/Typography,0.34464663
+156,Yang2016-08,File-Modification,Jones2008-13,Significant Addition,0.34435016
+157,Falting2021-04,Elaboration,Pfeil2006-12,Add Information,0.34366518
+158,Yang2017-01,Disambiguation,Pfeil2006-12,Delete Information,0.34351555
+159,Rajagopal2022-02,Add New Information,Guo2022-16,Citation,0.34224072
+160,Falting2021-04,Disambiguation,Pfeil2006-12,Delete Information,0.33659756
+161,Zhang2015-06,Rebuttal/Reservation,Failgey1981-10,Meaning-Preserving-Permutation,0.33579266
+162,Du2022-07,Meaning-Changed,Failgey1981-10,Meaning-Preserving-Consilidation,0.335358
+163,Du2022-07,Clarity,Rathjens1985-15,Brevity,0.33441457
+164,Du2022-07,Meaning-Changed,Failgey1981-10,Meaning-Preserving-Addition,0.33361244
+165,Du2022-07,Meaning-Changed,Failgey1981-10,Meaning-Preserving-Deletion,0.33361244
+166,Anthonio2020-03,Information Deletion,Failgey1981-10,Meaning-Preserving-Deletion,0.32548317
+167,Zhang2015-06,Rebuttal/Reservation,Liu2014-14,Reference insertion,0.31967652
+168,Spangher2022-05,Addition,Zhang2016-11,Organization,0.31556088
+169,Spangher2022-05,Deletion,Zhang2016-11,Organization,0.31556088
+170,Zhang2015-06,Organization,Liu2014-14,Link modification,0.3151165
+171,Rajagopal2022-02,Add New Information,Failgey1981-10,Abbreviation,0.31397647
+172,Zhang2015-06,Organization,Pfeil2006-12,Add Information,0.31322145
+173,Yang2017-01,Refactoring,Pfeil2006-12,Spelling,0.31145033
+174,Du2022-07,Style,Jones2008-13,Style or readability,0.30926588
+175,Zhang2015-06,Organization,Jones2008-13,Disambiguation,0.30675477
+176,Zhang2015-06,Evidence,Guo2022-16,Forward Reference,0.30625632
+177,Falting2021-04,Refactoring,Pfeil2006-12,Spelling,0.3051261
+178,Du2022-07,Clarity,Pfeil2006-12,Clarify Information,0.30409828
+179,Yang2016-08,Markup-Inserion,Pfeil2006-12,Mark-up Language,0.2993104
+180,Falting2021-04,Refactoring,Failgey1981-10,Spelling,0.29603052
+181,Zhang2015-06,Rebuttal/Reservation,Pfeil2006-12,Reversion,0.29489356
+182,Rajagopal2022-02,Word-Smithing,Pfeil2006-12,Spelling,0.29259175
+183,Spangher2022-05,Refactors,Daxenberger2012-09,Revert,0.28830495
+184,Yang2017-01,Refactoring,Failgey1981-10,Spelling,0.28813303
+185,Rajagopal2022-02,Add New Information,Zhang2016-11,Organization,0.28689373
+186,Spangher2022-05,Refactors,Liu2014-14,Revert,0.2858048
+187,Spangher2022-05,Refactors,Daxenberger2013-17,Revert,0.28181145
+188,Yang2017-01,Refactoring,Daxenberger2012-09,Revert,0.28078902
+189,Yang2017-01,Refactoring,Daxenberger2013-17,Revert,0.28078902
+190,Yang2017-01,Refactoring,Jones2008-13,Revert,0.27964985
+191,Yang2016-08,Rephrase,Jones2008-13,Revert,0.27765888
+192,Rajagopal2022-02,Add New Information,Liu2014-14,Link insertion,0.2774287
+193,Falting2021-04,Refactoring,Jones2008-13,Revert,0.27720127
+194,Anthonio2020-03,Information Deletion,Zhang2016-11,Organization,0.2758618
+195,Rajagopal2022-02,Remove Existing Information,Liu2014-14,Reference insertion,0.27502325
+196,Rajagopal2022-02,Add New Information,Jones2008-13,Disambiguation,0.271174
+197,Rajagopal2022-02,Add Supporting Evidence,Jones2008-13,Add Image,0.27041006
+198,Anthonio2020-03,Information Modification/Insertion,Jones2008-13,Significant Addition,0.2691332
+199,Yang2017-01,Refactoring,Liu2014-14,Revert,0.2689829
+200,Du2022-07,Coherence,Liu2014-14,Reference deletion,0.26625878
+201,Falting2021-04,Refactoring,Daxenberger2012-09,Revert,0.26592633
+202,Falting2021-04,Refactoring,Daxenberger2013-17,Revert,0.26592633
+203,Du2022-07,Style,Rathjens1985-15,Emphasis,0.26465306
+204,Spangher2022-05,Refactors,Jones2008-13,Revert,0.2644351
+205,Rajagopal2022-02,Word-Smithing,Failgey1981-10,Spelling,0.2617339
+206,Falting2021-04,Refactoring,Liu2014-14,Revert,0.25909367
+207,Rajagopal2022-02,Point-of-view Change,Jones2008-13,Structual Changes,0.25710598
+208,Falting2021-04,Process,Rathjens1985-15,Completeness,0.25541314
+209,Du2022-07,Coherence,Daxenberger2012-09,Reference-Deletion,0.2553397
+210,Yang2017-01,Process,Rathjens1985-15,Completeness,0.25077197
+211,Rajagopal2022-02,Add Supporting Evidence,Guo2022-16,Forward Reference,0.25033587
+212,Du2022-07,Coherence,Daxenberger2013-17,Reference-Deletion,0.24938731
+213,Falting2021-04,Verifiability,Rathjens1985-15,Brevity,0.24876122
+214,Du2022-07,Meaning-Changed,Jones2008-13,Structual Changes,0.24226019
+215,Falting2021-04,Unlabeled,Pfeil2006-12,Delete Link,0.24219963
+216,Falting2021-04,Verifiability,Failgey1981-10,"Tense, Number and Modality",0.2395604
+217,Yang2017-01,Refactoring,Zhang2016-11,Warrant/Reasoning/Backing,0.23930842
+218,Anthonio2020-03,Paraphrase,Pfeil2006-12,Style/Typography,0.23612402
+219,Rajagopal2022-02,Point-of-view Change,Pfeil2006-12,Mark-up Language,0.23143232
+220,Zhang2015-06,Word-usage/Clarity,Rathjens1985-15,Brevity,0.23041657
+221,Yang2017-01,Process,Guo2022-16,Paraphrase,0.22950584
+222,Spangher2022-05,Edit,Pfeil2006-12,Format,0.22742257
+223,Yang2017-01,Fact Update,Jones2008-13,Fix or Delete Image,0.22734565
+224,Yang2017-01,Process,Daxenberger2012-09,Paraphrase,0.22536294
+225,Yang2017-01,Process,Daxenberger2013-17,Paraphrase,0.22536294
+226,Falting2021-04,Process,Guo2022-16,Paraphrase,0.22512484
+227,Rajagopal2022-02,Word-Smithing,Zhang2016-11,Warrant/Reasoning/Backing,0.22503932
+228,Spangher2022-05,Edit,Guo2022-16,Paraphrase,0.2250093
+229,Falting2021-04,Fact Update,Jones2008-13,Fix or Delete Image,0.2248188
+230,Yang2017-01,Counter Vandalism,Failgey1981-10,"Tense, Number and Modality",0.22308591
+231,Spangher2022-05,Edit,Failgey1981-10,Format,0.22276662
+232,Falting2021-04,Refactoring,Zhang2016-11,Warrant/Reasoning/Backing,0.22193089
+233,Falting2021-04,Copy-editing,Zhang2016-11,Warrant/Reasoning/Backing,0.2200078
+234,Zhang2015-06,Organization,Rathjens1985-15,Order,0.21858081
+235,Yang2017-01,Process,Jones2008-13,Structual Changes,0.218155
+236,Yang2017-01,Fact Update,Zhang2016-11,Evidence,0.21794093
+237,Du2022-07,Clarity,Failgey1981-10,"Tense, Number and Modality",0.21793409
+238,Rajagopal2022-02,Point-of-view Change,Failgey1981-10,Microstructure Changes-Deletion,0.21662697
+239,Rajagopal2022-02,Point-of-view Change,Failgey1981-10,Macrostructure Changes-Deletion,0.21662697
+240,Yang2016-08,Grammar,Zhang2016-11,General Content,0.2140602
+241,Du2022-07,Meaning-Changed,Zhang2016-11,Warrant/Reasoning/Backing,0.21302693
+242,Rajagopal2022-02,Point-of-view Change,Guo2022-16,Paraphrase,0.21231523
+243,Du2022-07,Style,Guo2022-16,Paraphrase,0.21142514
+244,Yang2017-01,Fact Update,Pfeil2006-12,Format,0.21142444
+245,Anthonio2020-03,Spelling/Grammar,Liu2014-14,Revert,0.21088667
+246,Falting2021-04,Process,Daxenberger2012-09,Paraphrase,0.20984107
+247,Falting2021-04,Process,Daxenberger2013-17,Paraphrase,0.20984107
+248,Falting2021-04,Process,Jones2008-13,Structual Changes,0.20870093
+249,Yang2016-08,Grammar,Failgey1981-10,Spelling,0.20674562
+250,Zhang2015-06,Conventions/Grammar/Spelling,Rathjens1985-15,Consistency,0.20665313
+251,Falting2021-04,Fact Update,Pfeil2006-12,Format,0.20429236
+252,Du2022-07,Clarity,Guo2022-16,Citation,0.20361264
+253,Du2022-07,Fluency,Failgey1981-10,Format,0.20077494
+254,Spangher2022-05,Edit,Zhang2016-11,Evidence,0.20075952
+255,Du2022-07,Style,Failgey1981-10,Spelling,0.19937633
+256,Spangher2022-05,Refactors,Guo2022-16,Forward Reference,0.19743124
+257,Falting2021-04,Fact Update,Zhang2016-11,Evidence,0.19601792
+258,Falting2021-04,Fact Update,Failgey1981-10,Format,0.19596729
+259,Zhang2015-06,Word-usage/Clarity,Failgey1981-10,"Tense, Number and Modality",0.1948803
+260,Rajagopal2022-02,Point-of-view Change,Daxenberger2012-09,Paraphrase,0.19385287
+261,Zhang2015-06,Claim/Ideas,Rathjens1985-15,Completeness,0.19082895
+262,Rajagopal2022-02,Point-of-view Change,Daxenberger2013-17,Paraphrase,0.18853372
+263,Yang2017-01,Fact Update,Failgey1981-10,Format,0.18847297
+264,Spangher2022-05,Refactors,Failgey1981-10,Spelling,0.18835223
+265,Du2022-07,Fluency,Pfeil2006-12,Format,0.18759716
+266,Zhang2015-06,Word-usage/Clarity,Jones2008-13,Style or readability,0.1867884
+267,Zhang2015-06,General Content,Jones2008-13,Structual Changes,0.18509859
+268,Falting2021-04,Copy-editing,Rathjens1985-15,Consistency,0.1841486
+269,Zhang2015-06,General Content,Failgey1981-10,Format,0.1773803
+270,Yang2017-01,Copy Editing,Rathjens1985-15,Consistency,0.17668971
+271,Du2022-07,Style,Daxenberger2012-09,Paraphrase,0.17596282
+272,Zhang2015-06,Evidence,Jones2008-13,Add Image,0.17538737
+273,Rajagopal2022-02,Fact Update,Jones2008-13,Fix or Delete Image,0.17531946
+274,Zhang2015-06,Evidence,Pfeil2006-12,Mark-up Language,0.1737735
+275,Spangher2022-05,Edit,Rathjens1985-15,Emphasis,0.17311496
+276,Anthonio2020-03,Paraphrase,Jones2008-13,Add Image,0.17172271
+277,Yang2016-08,Grammar,Rathjens1985-15,Order,0.17127164
+278,Spangher2022-05,Refactors,Zhang2016-11,Claim/Ideas,0.17108038
+279,Du2022-07,Meaning-Changed,Pfeil2006-12,Mark-up Language,0.16994667
+280,Zhang2015-06,General Content,Pfeil2006-12,Format,0.16918464
+281,Du2022-07,Style,Daxenberger2013-17,Paraphrase,0.16901839
+282,Anthonio2020-03,Paraphrase,Zhang2016-11,Evidence,0.16538754
+283,Falting2021-04,Refactoring,Rathjens1985-15,Order,0.1599056
+284,Anthonio2020-03,Spelling/Grammar,Zhang2016-11,Warrant/Reasoning/Backing,0.15903059
+285,Anthonio2020-03,Spelling/Grammar,Jones2008-13,Add Link,0.15867932
+286,Anthonio2020-03,Spelling/Grammar,Jones2008-13,Revert,0.15810275
+287,Yang2016-08,Template-Deletion,Rathjens1985-15,Completeness,0.1561424
+288,Spangher2022-05,Refactors,Rathjens1985-15,Order,0.1557023
+289,Rajagopal2022-02,Word-Smithing,Rathjens1985-15,Order,0.15525852
+290,Spangher2022-05,Addition,Rathjens1985-15,Accuracy,0.15459198
+291,Yang2017-01,Refactoring,Rathjens1985-15,Order,0.1536705
+292,Du2022-07,Fluency,Daxenberger2012-09,File-Deletion,0.15174034
+293,Du2022-07,Fluency,Daxenberger2013-17,File-Deletion,0.15174034
+294,Rajagopal2022-02,Fact Update,Rathjens1985-15,Emphasis,0.14584552
+295,Spangher2022-05,Deletion,Rathjens1985-15,Completeness,0.14198232
+296,Du2022-07,Meaning-Changed,Daxenberger2012-09,Vandalism,0.14129862
+297,Du2022-07,Meaning-Changed,Daxenberger2013-17,Vandalism,0.13512577
+298,Anthonio2020-03,Paraphrase,Rathjens1985-15,Emphasis,0.13290358
+299,Anthonio2020-03,Spelling/Grammar,Rathjens1985-15,Order,0.13077284
+300,Rajagopal2022-02,Add Supporting Evidence,Rathjens1985-15,Brevity,0.12669662
+301,Rajagopal2022-02,Add New Information,Rathjens1985-15,Accuracy,0.12667078
+302,Anthonio2020-03,Information Deletion,Rathjens1985-15,Completeness,0.11215994

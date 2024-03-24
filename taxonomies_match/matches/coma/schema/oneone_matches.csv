@@ -1,0 +1,54 @@
+,table1,col1,table2,col2,sim_score
+0,Zhang2015-06,Warrant/Reasoning/Backing,Zhang2016-11,Warrant/Reasoning/Backing,0.9250307
+1,Zhang2015-06,General Content,Zhang2016-11,General Content,0.91785717
+2,Zhang2015-06,Organization,Zhang2016-11,Organization,0.91598094
+3,Zhang2015-06,Claim/Ideas,Zhang2016-11,Claim/Ideas,0.91496885
+4,Zhang2015-06,Evidence,Zhang2016-11,Evidence,0.91158533
+5,Yang2016-08,Reference-Modification,Daxenberger2012-09,Reference-Modification,0.88855356
+6,Yang2016-08,Information-Modification,Daxenberger2012-09,Information-Modification,0.88706356
+7,Yang2016-08,Template-Modification,Daxenberger2012-09,Template-Modification,0.88706356
+8,Yang2016-08,Markup-Modification,Daxenberger2012-09,Markup-Modification,0.88389933
+9,Yang2016-08,Information-Insertion,Daxenberger2012-09,Information-Insertion,0.88389933
+10,Yang2016-08,Reference-Insertion,Daxenberger2012-09,Reference-Insertion,0.88389933
+11,Yang2016-08,Information-Deletion,Daxenberger2012-09,Information-Deletion,0.8822173
+12,Yang2016-08,Reference-Deletion,Daxenberger2012-09,Reference-Deletion,0.8822173
+13,Yang2016-08,Template-Insertion,Daxenberger2012-09,Template-Insertion,0.8822173
+14,Yang2016-08,File-Modification,Daxenberger2012-09,File-Modification,0.88046294
+15,Yang2016-08,Template-Deletion,Daxenberger2012-09,Template-Deletion,0.88046294
+16,Yang2016-08,Markup-Inserion,Daxenberger2012-09,Markup-Inserion,0.8767176
+17,Yang2016-08,Markup-Deletion,Daxenberger2012-09,Markup-Deletion,0.8767176
+18,Yang2016-08,File-Insertion,Daxenberger2012-09,File-Insertion,0.8747158
+19,Yang2016-08,File-Deletion,Daxenberger2012-09,File-Deletion,0.8726198
+20,Yang2016-08,Relocation,Daxenberger2012-09,Relocation,0.865695
+21,Anthonio2020-03,Spelling/Grammar,Daxenberger2012-09,Spelling/Grammar,0.78927183
+22,Anthonio2020-03,Paraphrase,Daxenberger2012-09,Paraphrase,0.77519447
+23,Yang2017-01,Elaboration,Guo2022-16,Elaboration,0.758035
+24,Yang2017-01,Disambiguation,Jones2008-13,Disambiguation,0.7568756
+25,Yang2017-01,Vandalism,Jones2008-13,Vandalism,0.74513847
+26,Yang2016-08,Grammar,Pfeil2006-12,Grammar,0.7390403
+27,Du2022-07,Clarity,Zhang2016-11,Clarity,0.73147255
+28,Falting2021-04,Vandalism,Daxenberger2012-09,Vandalism,0.72377264
+29,Anthonio2020-03,Information Deletion,Daxenberger2013-17,Information-Deletion,0.70305437
+30,Rajagopal2022-02,Add New Information,Pfeil2006-12,Add Information,0.6499872
+31,Anthonio2020-03,Information Modification/Insertion,Daxenberger2013-17,Information-Modification,0.64417875
+32,Yang2016-08,Wikilink-Modification,Liu2014-14,Link modification,0.62796926
+33,Zhang2015-06,Conventions/Grammar/Spelling,Zhang2016-11,Conventions,0.6215468
+34,Yang2016-08,Rephrase,Daxenberger2013-17,Paraphrase,0.6099002
+35,Yang2016-08,Wikilink-Insertion,Liu2014-14,Link insertion,0.5930844
+36,Yang2016-08,Wikilink-Deletion,Liu2014-14,Link deletion,0.5790435
+37,Spangher2022-05,Deletion,Daxenberger2013-17,File-Deletion,0.5300981
+38,Yang2017-01,Clarification,Pfeil2006-12,Clarify Information,0.5118162
+39,Yang2017-01,Verification,Daxenberger2013-17,File-Modification,0.48994482
+40,Yang2017-01,Simplification,Daxenberger2013-17,Template-Modification,0.47096825
+41,Yang2017-01,Fact Update,Guo2022-16,Dynamic Update,0.4600308
+42,Falting2021-04,Clarification,Guo2022-16,Citation,0.44595647
+43,Falting2021-04,Simplification,Liu2014-14,Sentence modification,0.44241208
+44,Spangher2022-05,Addition,Jones2008-13,Significant Addition,0.44115207
+45,Falting2021-04,Verifiability,Jones2008-13,Style or readability,0.38634464
+46,Falting2021-04,Disambiguation,Failgey1981-10,Punctuation,0.38113213
+47,Du2022-07,Coherence,Guo2022-16,Forward Reference,0.37379354
+48,Zhang2015-06,Rebuttal/Reservation,Daxenberger2013-17,Relocation,0.3732332
+49,Yang2016-08,External Link-Deletion,Pfeil2006-12,Delete Link,0.35659993
+50,Du2022-07,Fluency,Rathjens1985-15,Consistency,0.35038307
+51,Du2022-07,Style,Pfeil2006-12,Style/Typography,0.34464663
+52,Du2022-07,Meaning-Changed,Failgey1981-10,Meaning-Preserving-Consilidation,0.335358
