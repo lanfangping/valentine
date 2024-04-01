@@ -1,7 +1,9 @@
 import os
 import pandas as pd
 from valentine import valentine_match, valentine_match_batch
-from valentine.algorithms import JaccardDistanceMatcher, Cupid, Coma, SimilarityFlooding
+from valentine.algorithms import JaccardDistanceMatcher, Cupid, Coma, SimilarityFlooding, DistributionBased
+from collections import defaultdict
+import pickle
 import pprint
 pp = pprint.PrettyPrinter(indent=4, sort_dicts=False)
 
@@ -54,8 +56,8 @@ def df_iter_names():
         print(f"Processing sheet: {sheet_name}") 
         yield sheet_name
 
-def get_df_and_names():
-    all_sheets = pd.read_excel("./data/nameonly/taxonomies-valentine-format.xlsx", sheet_name=None) # sheet_name=None reads all worksheets
+def get_df_and_names(filepath):
+    all_sheets = pd.read_excel(filepath, sheet_name=None) # sheet_name=None reads all worksheets
 
     dfs = []
     names = []
@@ -97,20 +99,151 @@ def store_matches(matches, store_path):
     df2 = pd.DataFrame(data_oneone, columns=['table1', 'col1', 'table2', 'col2', 'sim_score'])
     df2.to_csv(f'{store_path}/oneone_matches.csv')
 
+# leveraging "bridge" effect in Wu's paper:
+# "An Interactive Clustering-based Approach to Integrating Source Query Interfaces on the Deep Web"
+# def run_interatively(dfs, matcher, names):
+#     unique_category_count=0
+#     matching_dict = {}
+#     for col in df[0].columns:
+#         n = f"{names[0]} - {col}"
+#         matching_dict[n] = unique_category_count
+#         unique_category_count += 1
+#     for i, df in enumerate(dfs):
 
+def integrate_using_bridging_effect(matches, threshold, output_dir, output_file):
+    """
+    ## Bridging Effect:
+    - The bridging effect is similar to the idea of reusing past identified mappings.
+    - For example, two semantically similar fields, e1 and e2, might not be judged as similar based on their own evidences. 
+        - Nevertheless, both of them might be similar to a third field e3 in different aspects. 
+        - Thus, by considering matching all three fields together, e3 can be effectively used to suggest the mapping between e1 and e2.
+
+    Parameter:
+    ----------
+    matches: list of tupels or pd.Dataframe
+        [(table1, col1, table2, col2, sim_score)];
+        they are stored matches
+    """
+    unique_group_count = 0
+    if type(matches) is list:
+        matches = pd.DataFrame(matches)
+    
+    category_uniquegroup_mapping = {}
+    uniquegroup_category_mapping = defaultdict(list)
+    popping_ids = []
+    for row_idx, match in matches.iterrows():
+        # print("match", match)
+        table1, col1, table2, col2, sim_score = match['table1'], match['col1'], match['table2'], match['col2'], match['sim_score']
+        if sim_score < threshold:
+            continue
+        name1 = f"{table1} & {col1}"
+        name2 = f"{table2} & {col2}"
+
+        """
+        if `name#` is in the `category_uniquegroup_mapping` dict, then `name#` must be in a matching group.
+        if both `name1` and `name2` are in a group, check if they are in the same group; 
+            if it is, then skip; 
+            otherwise, update the group number for one of them and their other related categories.
+        """
+        if name1 not in category_uniquegroup_mapping.keys() and name2 not in category_uniquegroup_mapping.keys():
+            category_uniquegroup_mapping[name1] = unique_group_count
+            category_uniquegroup_mapping[name2] = unique_group_count
+            uniquegroup_category_mapping[unique_group_count].extend((name1, name2))
+            unique_group_count += 1
+        elif name1 in category_uniquegroup_mapping.keys() and name2 in category_uniquegroup_mapping.keys():
+            group_id1 = category_uniquegroup_mapping[name1]
+            group_id2 = category_uniquegroup_mapping[name2]
+            if group_id1 == group_id2:
+                continue
+
+            for name in uniquegroup_category_mapping[group_id2]:
+                category_uniquegroup_mapping[name] = group_id1
+                uniquegroup_category_mapping[group_id1].append(name)
+            # uniquegroup_category_mapping.pop(group_id2)
+            popping_ids.append(group_id2)
+        elif name1 in category_uniquegroup_mapping.keys() and name2 not in category_uniquegroup_mapping.keys():
+            group_id1 = category_uniquegroup_mapping[name1]
+            category_uniquegroup_mapping[name2] = group_id1
+            uniquegroup_category_mapping[group_id1].append(name2)
+        else:
+            group_id2 = category_uniquegroup_mapping[name2]
+            category_uniquegroup_mapping[name1] = group_id2
+            uniquegroup_category_mapping[group_id2].append(name1)
+        # print("category_uniquegroup_mapping", category_uniquegroup_mapping)
+        # print("uniquegroup_category_mapping", uniquegroup_category_mapping)
+        # print("popping_ids", popping_ids)
+        # input()
+
+    for id_ in popping_ids:
+        uniquegroup_category_mapping.pop(id_)
+    pickle.dump(category_uniquegroup_mapping, open(os.path.join(output_dir, "category_uniquegroup_mapping.pickle"), "wb"))
+    pickle.dump(category_uniquegroup_mapping, open(os.path.join(output_dir, "uniquegroup_category_mapping.pickle"), "wb"))
+
+    with open(os.path.join(output_dir, output_file), "w") as f:
+        f.write("====="*4+"\n")
+        for group_id, categories in uniquegroup_category_mapping.items():
+            for c in categories:
+                f.write(f"{c}\n")
+            f.write("====="*4+"\n")
+
+        file = "./data/nameonly/taxonomies-valentine-format.xlsx"
+        dfs, tablenames = get_df_and_names(file)
+        for idx, df in enumerate(dfs):
+            tablename = tablenames[idx]
+            for col in df.columns:
+                name = f"{tablename} & {col}"
+                if name not in category_uniquegroup_mapping.keys():
+                    f.write(f"{name}\n")
+                    f.write("====="*4+"\n")
+            
 if __name__ == '__main__':
+    # ============================= matching ==============================================
     # excel_file_dir = "./data/instances/taxonomies-valentine-format-instances-easyconcat.xlsx"
     # export_taxonomies(excel_file_dir)
 
     # df1 = pd.read_csv("./data/instances/Anthonio2020-03.csv")
     # df2 = pd.read_csv("./data/instances/Du2022-07.csv")
 
-    matcher = Coma(use_instances=True)
+    # matcher1 = Cupid()
     # match(df1, df2, matcher, "Anthonio2020", "Du2022")
 
-    dfs, names = get_df_and_names()
-    mid = len(dfs) // 2
-    print(names[:mid])
-    print(names[mid:])
-    matches = match_batch(dfs[:mid], dfs[mid:], matcher, names[:mid], names[mid:])
-    store_matches(matches, "./matches/coma/instance/")
+    # dfs, names = get_df_and_names("./data/nameonly/taxonomies-valentine-format.xlsx")
+    
+    # matcher1 = Cupid()
+    # matches1 = match_batch(dfs, dfs, matcher1, names, names)
+    # store_matches(matches1, "./matches/cupid/")
+    # print("Ends Cupid\n")
+
+    # print("Starts SimilarityFlooding\n")
+    # matcher2 = SimilarityFlooding()
+    # matches2 = match_batch(dfs, dfs, matcher2, names, names)
+    # store_matches(matches2, "./matches/similarityflooding/")
+    # print("Ends SimilarityFlooding\n")
+
+    # dfs, names = get_df_and_names("./data/instances/taxonomies-valentine-format-instances-easyconcat.xlsx")
+
+    # print("Starts Coma instances\n")
+    # matcher3 = Coma(use_instances=True)
+    # matches3 = match_batch(dfs, dfs, matcher3, names, names)
+    # store_matches(matches3, "./matches/coma/instance/")
+    # print("Ends Coma instances\n")
+
+    # print("Starts JaccardDistanceMatcher\n")
+    # matcher4 = JaccardDistanceMatcher()
+    # matches4 = match_batch(dfs, dfs, matcher4, names, names)
+    # store_matches(matches4, "./matches/jaccard/")
+    # print("Ends JaccardDistanceMatcher\n")
+
+    # print("Starts DistributionBased\n")
+    # matcher5 = DistributionBased()
+    # matches5 = match_batch(dfs, dfs, matcher5, names, names)
+    # store_matches(matches5, "./matches/distributed/")
+    # print("Ends DistributionBased\n")
+
+    # # ============================= integration ==============================================
+    source_file = "./matches/coma/schema/oneone_matches.csv"
+    output_dir = "./integration/coma/schema/all"
+    output_file = "integration_results.txt"
+    matches = pd.read_csv(source_file)
+    threshold = 0.5
+    integrate_using_bridging_effect(matches, threshold, output_dir, output_file)

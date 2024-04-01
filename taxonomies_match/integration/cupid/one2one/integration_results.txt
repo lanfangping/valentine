@@ -1,0 +1,178 @@
+====================
+Yang2017-01 & Vandalism
+Daxenberger2012-09 & Vandalism
+====================
+Yang2017-01 & Disambiguation
+Jones2008-13 & Disambiguation
+====================
+Yang2017-01 & Elaboration
+Guo2022-16 & Elaboration
+====================
+Anthonio2020-03 & Spelling/Grammar
+Daxenberger2012-09 & Spelling/Grammar
+====================
+Anthonio2020-03 & Paraphrase
+Daxenberger2012-09 & Paraphrase
+====================
+Falting2021-04 & Vandalism
+Pfeil2006-12 & Vandalism
+====================
+Zhang2015-06 & Organization
+Zhang2016-11 & Organization
+====================
+Zhang2015-06 & Claim/Ideas
+Zhang2016-11 & Claim/Ideas
+====================
+Zhang2015-06 & Warrant/Reasoning/Backing
+Zhang2016-11 & Warrant/Reasoning/Backing
+====================
+Zhang2015-06 & General Content
+Zhang2016-11 & General Content
+====================
+Zhang2015-06 & Evidence
+Zhang2016-11 & Evidence
+====================
+Du2022-07 & Clarity
+Zhang2016-11 & Clarity
+====================
+Yang2016-08 & Relocation
+Daxenberger2012-09 & Relocation
+====================
+Yang2016-08 & Markup-Inserion
+Daxenberger2012-09 & Markup-Inserion
+====================
+Yang2016-08 & Markup-Deletion
+Daxenberger2012-09 & Markup-Deletion
+====================
+Yang2016-08 & Markup-Modification
+Daxenberger2012-09 & Markup-Modification
+====================
+Yang2016-08 & Information-Insertion
+Daxenberger2012-09 & Information-Insertion
+====================
+Yang2016-08 & Information-Deletion
+Daxenberger2012-09 & Information-Deletion
+====================
+Yang2016-08 & Information-Modification
+Daxenberger2012-09 & Information-Modification
+====================
+Yang2016-08 & File-Insertion
+Daxenberger2012-09 & File-Insertion
+====================
+Yang2016-08 & File-Deletion
+Daxenberger2012-09 & File-Deletion
+====================
+Yang2016-08 & File-Modification
+Daxenberger2012-09 & File-Modification
+====================
+Yang2016-08 & Reference-Insertion
+Daxenberger2012-09 & Reference-Insertion
+====================
+Yang2016-08 & Reference-Deletion
+Daxenberger2012-09 & Reference-Deletion
+====================
+Yang2016-08 & Reference-Modification
+Daxenberger2012-09 & Reference-Modification
+====================
+Yang2016-08 & Template-Insertion
+Daxenberger2012-09 & Template-Insertion
+====================
+Yang2016-08 & Template-Deletion
+Daxenberger2012-09 & Template-Deletion
+====================
+Yang2016-08 & Template-Modification
+Daxenberger2012-09 & Template-Modification
+====================
+Yang2016-08 & Grammar
+Pfeil2006-12 & Grammar
+====================
+Yang2016-08 & Rephrase
+Guo2022-16 & Paraphrase
+====================
+Anthonio2020-03 & Information Deletion
+Daxenberger2013-17 & Information-Deletion
+====================
+Yang2017-01 & Process
+Guo2022-16 & Citation
+====================
+Du2022-07 & Coherence
+Rathjens1985-15 & Consistency
+====================
+Yang2017-01 & Copy Editing
+Pfeil2006-12 & Delete Information
+====================
+Anthonio2020-03 & Information Modification/Insertion
+Daxenberger2013-17 & Information-Modification
+====================
+Spangher2022-05 & Deletion
+Liu2014-14 & Reference deletion
+====================
+Du2022-07 & Style
+Jones2008-13 & Style or readability
+====================
+Rajagopal2022-02 & Add New Information
+Pfeil2006-12 & Add Information
+====================
+Yang2017-01 & Simplification
+Daxenberger2013-17 & Relocation
+====================
+Yang2017-01 & Counter Vandalism
+Jones2008-13 & Vandalism
+====================
+Falting2021-04 & Simplification
+Liu2014-14 & Reference modification
+====================
+Yang2017-01 & Point of View
+Failgey1981-10 & Punctuation
+====================
+Yang2017-01 & Fact Update
+Pfeil2006-12 & Clarify Information
+====================
+Falting2021-04 & Point of View
+Liu2014-14 & Link insertion
+====================
+Rajagopal2022-02 & Add Supporting Evidence
+Pfeil2006-12 & Add Link
+====================
+Falting2021-04 & Elaboration
+Pfeil2006-12 & Fix Link
+====================
+Yang2016-08 & External Link-Deletion
+Liu2014-14 & Link deletion
+====================
+Yang2016-08 & External Link-Modification
+Liu2014-14 & Link modification
+====================
+Rajagopal2022-02 & Fact Update
+Failgey1981-10 & Format
+====================
+Falting2021-04 & Fact Update
+Pfeil2006-12 & Format
+====================
+Yang2017-01 & Clarification
+Pfeil2006-12 & Reversion
+====================
+Falting2021-04 & Process
+Rathjens1985-15 & Order
+====================
+Falting2021-04 & Clarification
+Guo2022-16 & Neutralization
+====================
+Spangher2022-05 & Edit
+Pfeil2006-12 & Delete Link
+====================
+Zhang2015-06 & Conventions/Grammar/Spelling
+Daxenberger2013-17 & Spelling/Grammar
+====================
+Spangher2022-05 & Addition
+Failgey1981-10 & Abbreviation
+====================
+Du2022-07 & Fluency
+Rathjens1985-15 & Brevity
+====================
+Yang2016-08 & Wikilink-Insertion
+Liu2014-14 & Reference insertion
+====================
+Rajagopal2022-02 & Point-of-view Change
+Liu2014-14 & Sentence modification
+====================

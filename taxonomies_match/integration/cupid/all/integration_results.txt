@@ -1,0 +1,235 @@
+====================
+Zhang2015-06 & Claim/Ideas
+Zhang2016-11 & Claim/Ideas
+====================
+Zhang2015-06 & Warrant/Reasoning/Backing
+Zhang2016-11 & Warrant/Reasoning/Backing
+====================
+Yang2016-08 & Markup-Inserion
+Daxenberger2012-09 & Markup-Inserion
+Daxenberger2013-17 & Markup-Inserion
+Yang2016-08 & Markup-Deletion
+Daxenberger2012-09 & Markup-Deletion
+Daxenberger2013-17 & Markup-Deletion
+Yang2016-08 & Markup-Modification
+Daxenberger2012-09 & Markup-Modification
+Daxenberger2013-17 & Markup-Modification
+Yang2016-08 & Template-Insertion
+Daxenberger2012-09 & Template-Insertion
+Daxenberger2013-17 & Template-Insertion
+Yang2016-08 & Template-Deletion
+Daxenberger2012-09 & Template-Deletion
+Daxenberger2013-17 & Template-Deletion
+Yang2016-08 & Template-Modification
+Daxenberger2012-09 & Template-Modification
+Daxenberger2013-17 & Template-Modification
+Yang2016-08 & File-Insertion
+Daxenberger2012-09 & File-Insertion
+Daxenberger2013-17 & File-Insertion
+Yang2016-08 & File-Deletion
+Daxenberger2012-09 & File-Deletion
+Daxenberger2013-17 & File-Deletion
+Yang2016-08 & File-Modification
+Daxenberger2012-09 & File-Modification
+Daxenberger2013-17 & File-Modification
+Yang2017-01 & Copy Editing
+Pfeil2006-12 & Delete Information
+Jones2008-13 & Fix or Delete Image
+Du2022-07 & Coherence
+Rathjens1985-15 & Consistency
+Du2022-07 & Clarity
+Zhang2016-11 & Clarity
+Yang2017-01 & Disambiguation
+Jones2008-13 & Disambiguation
+Falting2021-04 & Disambiguation
+Yang2017-01 & Clarification
+Falting2021-04 & Clarification
+Yang2017-01 & Elaboration
+Guo2022-16 & Elaboration
+Falting2021-04 & Elaboration
+Spangher2022-05 & Addition
+Pfeil2006-12 & Fix Link
+Du2022-07 & Style
+Jones2008-13 & Style or readability
+Yang2017-01 & Process
+Guo2022-16 & Citation
+Falting2021-04 & Process
+Zhang2015-06 & Organization
+Zhang2016-11 & Organization
+Rathjens1985-15 & Order
+Yang2016-08 & Information-Insertion
+Daxenberger2012-09 & Information-Insertion
+Daxenberger2013-17 & Information-Insertion
+Yang2016-08 & Information-Deletion
+Daxenberger2012-09 & Information-Deletion
+Daxenberger2013-17 & Information-Deletion
+Anthonio2020-03 & Information Deletion
+Yang2016-08 & Information-Modification
+Daxenberger2012-09 & Information-Modification
+Daxenberger2013-17 & Information-Modification
+Anthonio2020-03 & Information Modification/Insertion
+Yang2016-08 & Relocation
+Daxenberger2012-09 & Relocation
+Daxenberger2013-17 & Relocation
+Yang2017-01 & Simplification
+Falting2021-04 & Simplification
+Yang2016-08 & Reference-Insertion
+Daxenberger2012-09 & Reference-Insertion
+Daxenberger2013-17 & Reference-Insertion
+Liu2014-14 & Reference insertion
+Yang2016-08 & Reference-Deletion
+Daxenberger2012-09 & Reference-Deletion
+Daxenberger2013-17 & Reference-Deletion
+Liu2014-14 & Reference deletion
+Yang2016-08 & Reference-Modification
+Daxenberger2012-09 & Reference-Modification
+Daxenberger2013-17 & Reference-Modification
+Liu2014-14 & Reference modification
+Spangher2022-05 & Deletion
+Pfeil2006-12 & Reversion
+Liu2014-14 & Link deletion
+Liu2014-14 & Sentence deletion
+Yang2016-08 & External Link-Deletion
+Zhang2015-06 & Evidence
+Zhang2016-11 & Evidence
+Rajagopal2022-02 & Add New Information
+Pfeil2006-12 & Add Information
+Rajagopal2022-02 & Add Supporting Evidence
+Yang2017-01 & Verification
+Pfeil2006-12 & Clarify Information
+Yang2017-01 & Fact Update
+Rajagopal2022-02 & Fact Update
+Falting2021-04 & Fact Update
+Zhang2015-06 & General Content
+Zhang2016-11 & General Content
+Yang2017-01 & Point of View
+Falting2021-04 & Point of View
+Failgey1981-10 & Punctuation
+Failgey1981-10 & Format
+Pfeil2006-12 & Format
+Liu2014-14 & Link insertion
+Pfeil2006-12 & Add Link
+Jones2008-13 & Add Link
+Yang2016-08 & External Link-Insertion
+Guo2022-16 & Dynamic Update
+Yang2017-01 & Vandalism
+Daxenberger2012-09 & Vandalism
+Pfeil2006-12 & Vandalism
+Jones2008-13 & Vandalism
+Daxenberger2013-17 & Vandalism
+Falting2021-04 & Vandalism
+Guo2022-16 & Neutralization
+Yang2017-01 & Counter Vandalism
+Rathjens1985-15 & Accuracy
+Rathjens1985-15 & Brevity
+Guo2022-16 & Concision
+Guo2022-16 & Forward Reference
+Spangher2022-05 & Edit
+Pfeil2006-12 & Delete Link
+Yang2016-08 & External Link-Modification
+Liu2014-14 & Link modification
+Jones2008-13 & Add Image
+Liu2014-14 & Sentence insertion
+Liu2014-14 & Sentence modification
+Yang2016-08 & Wikilink-Modification
+Failgey1981-10 & Abbreviation
+Du2022-07 & Fluency
+Yang2016-08 & Wikilink-Insertion
+Rajagopal2022-02 & Point-of-view Change
+Anthonio2020-03 & Paraphrase
+Daxenberger2012-09 & Paraphrase
+Guo2022-16 & Paraphrase
+Daxenberger2013-17 & Paraphrase
+Yang2016-08 & Rephrase
+Jones2008-13 & Significant Addition
+Yang2016-08 & Wikilink-Deletion
+Jones2008-13 & Significant Deletion
+Pfeil2006-12 & Style/Typography
+Rathjens1985-15 & Completeness
+Rathjens1985-15 & Emphasis
+Guo2022-16 & Emotionalism
+Rajagopal2022-02 & Remove Existing Information
+Failgey1981-10 & Tense, Number and Modality
+Jones2008-13 & Fix or Delete Link
+Pfeil2006-12 & Mark-up Language
+Zhang2015-06 & Word-usage/Clarity
+Rathjens1985-15 & Objectivity
+Failgey1981-10 & Meaning-Preserving-Deletion
+Zhang2015-06 & Rebuttal/Reservation
+Yang2017-01 & Wikification
+Falting2021-04 & Wikification
+Anthonio2020-03 & Spelling/Grammar
+Daxenberger2012-09 & Spelling/Grammar
+Daxenberger2013-17 & Spelling/Grammar
+Zhang2015-06 & Conventions/Grammar/Spelling
+Failgey1981-10 & Spelling
+Yang2016-08 & Grammar
+Pfeil2006-12 & Grammar
+Pfeil2006-12 & Spelling
+====================
+Yang2017-01 & Refactoring
+====================
+Rajagopal2022-02 & Word-Smithing
+====================
+Falting2021-04 & Refactoring
+====================
+Falting2021-04 & Copy-editing
+====================
+Falting2021-04 & Verifiability
+====================
+Falting2021-04 & Unlabeled
+====================
+Falting2021-04 & Counter-vandalism
+====================
+Spangher2022-05 & Refactors
+====================
+Du2022-07 & Meaning-Changed
+====================
+Daxenberger2012-09 & Revert
+====================
+Failgey1981-10 & Meaning-Preserving-Addition
+====================
+Failgey1981-10 & Meaning-Preserving-Substitution
+====================
+Failgey1981-10 & Meaning-Preserving-Permutation
+====================
+Failgey1981-10 & Meaning-Preserving-Distribution
+====================
+Failgey1981-10 & Meaning-Preserving-Consilidation
+====================
+Failgey1981-10 & Microstructure Changes-Addition
+====================
+Failgey1981-10 & Microstructure Changes-Deletion
+====================
+Failgey1981-10 & Microstructure Changes-Substitution
+====================
+Failgey1981-10 & Microstructure Changes-Permutation
+====================
+Failgey1981-10 & Microstructure Changes-Distribution
+====================
+Failgey1981-10 & Microstructure Changes-Consilidation
+====================
+Failgey1981-10 & Macrostructure Changes-Addition
+====================
+Failgey1981-10 & Macrostructure Changes-Deletion
+====================
+Failgey1981-10 & Macrostructure Changes-Substitution
+====================
+Failgey1981-10 & Macrostructure Changes-Permutation
+====================
+Failgey1981-10 & Macrostructure Changes-Distribution
+====================
+Failgey1981-10 & Macrostructure Changes-Consilidation
+====================
+Zhang2016-11 & Conventions
+====================
+Jones2008-13 & Revert
+====================
+Jones2008-13 & Structual Changes
+====================
+Liu2014-14 & Revert
+====================
+Guo2022-16 & Personalization
+====================
+Daxenberger2013-17 & Revert
+====================
