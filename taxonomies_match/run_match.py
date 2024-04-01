@@ -99,18 +99,7 @@ def store_matches(matches, store_path):
     df2 = pd.DataFrame(data_oneone, columns=['table1', 'col1', 'table2', 'col2', 'sim_score'])
     df2.to_csv(f'{store_path}/oneone_matches.csv')
 
-# leveraging "bridge" effect in Wu's paper:
-# "An Interactive Clustering-based Approach to Integrating Source Query Interfaces on the Deep Web"
-# def run_interatively(dfs, matcher, names):
-#     unique_category_count=0
-#     matching_dict = {}
-#     for col in df[0].columns:
-#         n = f"{names[0]} - {col}"
-#         matching_dict[n] = unique_category_count
-#         unique_category_count += 1
-#     for i, df in enumerate(dfs):
-
-def integrate_using_bridging_effect(matches, threshold, output_dir, output_file):
+def integrate_using_bridging_effect(matches:list|pd.DataFrame, threshold:float, output_dir:str, output_file:str):
     """
     ## Bridging Effect:
     - The bridging effect is similar to the idea of reusing past identified mappings.
@@ -120,9 +109,18 @@ def integrate_using_bridging_effect(matches, threshold, output_dir, output_file)
 
     Parameter:
     ----------
-    matches: list of tupels or pd.Dataframe
+    `matches`: list of tupels or pd.Dataframe
         [(table1, col1, table2, col2, sim_score)];
         they are stored matches
+
+    `threshold`: float
+        range[0, 1]. The threshold for similarity score. if `sim_score` is less than the `threshold`, this pair of match will be ignore.
+
+    `output_dir`: string
+        the path for storing integrated results
+    
+    `output_file`: string
+        the file under `output_dir` for storing integrated results
     """
     unique_group_count = 0
     if type(matches) is list:
